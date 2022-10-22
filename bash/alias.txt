@@ -1,25 +1,7 @@
-run command
-> nano ~/.bash_aliases
-add your alias
-save file
+# useful WSL aliases
+alias wwd='wslpath -w $(pwd)'
+alias clip='clip.exe'
 
+# this is a current attempt to paste something into command line, I have yet to figure this out
+alias paste='powershell.exe Get-Clipboard'
 
-
-> nano ~/.bashrc
-double check if this piece of code exists
-
-if [ -f ~/.bash_aliases ]; then
-    . ~/.bash_aliases
-fi
-
-if it doesn't exists, add it
-
-
-
-
-> source ~/.bashrc
-
-
-
-
-then you would have any aliases added to be useable permanently and in-session without restarting
