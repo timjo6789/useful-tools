@@ -1,6 +1,7 @@
 # useful WSL aliases
 alias wwd='wslpath -w $(pwd)'
 alias clip='clip.exe'
+alias fcode='code .'
 
 # this is a current attempt to paste something into command line, I have yet to figure this out
 alias paste='powershell.exe Get-Clipboard'

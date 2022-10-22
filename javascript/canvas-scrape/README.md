@@ -1,1 +1,1 @@
-# Grab links from canvas to quickly do tasks.
+# Scraping canvas website 'https://instructure.com' to get links for modules.
