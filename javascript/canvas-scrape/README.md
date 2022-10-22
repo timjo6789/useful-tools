@@ -1,1 +1,1 @@
-# grab links from canvas to quickly do tasks
+# Grab links from canvas to quickly do tasks.
