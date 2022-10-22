@@ -1,0 +1,1 @@
+alias wwd='wslpath -w $(pwd)'

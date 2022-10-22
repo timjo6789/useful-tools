@@ -1,0 +1,25 @@
+run command
+> nano ~/.bash_aliases
+add your alias
+save file
+
+
+
+> nano ~/.bashrc
+double check if this piece of code exists
+
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+if it doesn't exists, add it
+
+
+
+
+> source ~/.bashrc
+
+
+
+
+then you would have any aliases added to be useable permanently and in-session without restarting
